@@ -1,0 +1,149 @@
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.home{
+    position: absolute;
+    padding: auto;
+    margin-top: 10px;
+    display: flex;
+    gap: 400px;
+}
+.price{
+    display: flex;
+    margin-top: -15px;
+    font-weight: bold;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+}
+a:hover{
+    color: yellow;
+}
+main{
+    display: grid;
+grid-template-columns: 1fr 2fr;
+padding-left: 20px;
+    a{
+        color: black;
+    }
+    a:hover{
+        color: none;
+    }
+}
+button{
+    color: #fff;
+    background-color: #5A2C82;
+    font-weight: bold;
+}
+.button-about{
+    position: relative;
+}
+.about{
+    position: absolute;
+bottom: 10px;
+a{
+    color:#575756;
+}
+a:hover{
+    color:yellow;
+}
+}
+.pic{
+display: flex;
+overflow: scroll;
+}
+.card{
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+    
+    div{
+        border: 2px solid #E2E2E2;
+        padding: 15px;  
+    margin-top: 20px;
+    height: 440px;
+    font-size: 16px;
+    color: #575756;
+    font-weight: normal;
+    position: relative;
+    box-sizing: border-box;     
+    }
+button{
+    display: inline-block;
+    background: #A6368C;
+    color: #FFF;
+    font-size: 15px;
+    min-width: 175px;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+}
+    button:hover{
+        background-color: yellow;
+    }
+    h1{
+        color: #5A2C82;
+        font-weight: 100;
+        font-size: 20px;
+    }
+img{
+    max-width: 100%;
+}
+}
+.next{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+    .next-page{
+        min-height: 400px;
+    }
+
+p{
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    unicode-bidi: isolate;
+}
+}
+.mobile{
+    
+        display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+        
+        div{
+            border: 2px solid #E2E2E2;
+            padding: 15px;  
+        margin-top: 20px;
+        height: 330px;
+        font-size: 16px;
+        color: #575756;
+        font-weight: normal;
+        position: relative;
+        box-sizing: border-box;     
+        }
+        h3{
+            color: #5A2C82;
+            font-weight: 100;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        a{
+            color: #5A2C82;
+            position: absolute;
+            bottom: 0px;
+            right: 20px;
+        }
+        a:hover{
+            color: yellow;
+        }
+}
